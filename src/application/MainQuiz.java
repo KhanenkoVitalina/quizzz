@@ -128,10 +128,11 @@ public class MainQuiz extends Application{
 		VBox vb = new VBox();
 		vb.getChildren().add(box);
 		pane.setLeft(box);
+		vb.setPadding(new Insets(12,12,12,12));
 		vb.setAlignment(Pos.TOP_RIGHT);
 		BorderPane.setAlignment(tryAgain, Pos.CENTER);
 		BorderPane.setAlignment(label2, Pos.CENTER);
-		BorderPane.setAlignment(vb, Pos.TOP_RIGHT);
+		BorderPane.setAlignment(vb, Pos.CENTER);
 		BorderPane.setMargin(tryAgain, new Insets(12,12,12,12));
 		BorderPane.setMargin(vb, new Insets(12,12,12,12));
 		pane.setBottom(tryAgain);

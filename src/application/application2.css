@@ -26,15 +26,23 @@
 	
 }
 #results{
+	-fx-background-color: #fff6f6;
+	-fx-padding: 10px;
+    -fx-border-insets: 10px;
+    -fx-background-insets: 5px;
 	-fx-pref-width: 30px;
-	-fx-pref-height: 30px;
+	-fx-pref-height: 20px;
 	-fx-background-image: url("/sound.png");
 	-fx-background-repeat: no-repeat;
 	-fx-background-size: 100% 100%
 }
 #list{
+	-fx-background-color: #fff6f6;
+		-fx-padding: 10px;
+    -fx-border-insets: 10px;
+    -fx-background-insets: 5px;
 	-fx-pref-width: 30px;
-	-fx-pref-height: 30px;
+	-fx-pref-height: 20px;
 	-fx-background-image: url("/lust.png");
 	-fx-background-repeat: no-repeat;
 	-fx-background-size: 100% 100%
