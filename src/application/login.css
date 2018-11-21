@@ -1,0 +1,30 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#text{
+	-fx-background-radius: 30;
+	-fx-font-size: 15px;
+	-fx-font-weight: bold;
+	-fx-font-family: "Courier New"
+	
+}
+#pas{
+	-fx-background-radius: 30;
+	-fx-font-size: 15px;
+	-fx-font-weight: bold;
+	-fx-font-family: "Courier New"
+}
+.root{
+
+  -fx-background-color: #000;
+  -fx-background-image: url("/puzzle.jpg");
+  -fx-background-repeat:no-repeat;
+  -fx-background-size: 100% 100%
+
+}
+.button{
+	-fx-background-radius: 30;
+	-fx-background-color: white;
+	-fx-font-size: 15px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #515778;
+	-fx-font-family: "Courier New"
+}
